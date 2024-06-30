@@ -12,6 +12,7 @@ def breach_n2_show(password):
             j+=1
             itr+=1
         else:
+            itr+=1
             pwd+=char[j]
             print(pwd,itr)
     print('\n')

@@ -61,6 +61,7 @@ def breach_n2_hide(password):
             j+=1
             itr+=1
         else:
+            itr+=1
             pwd+=char[j]
     print('Reconstructed: ',pwd)
     print(f"Total Iterations for n^2: {itr}\n")

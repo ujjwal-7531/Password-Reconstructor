@@ -95,7 +95,7 @@ def breach_nln_hide(password):
 print('Enter any password: ',end='')
 password=input()
 
-print('\nOptions: \n1. n^2 with steps.\n2. nlon(n) with steps.\n3. n^2 without steps.\n4. nlon(n) without steps.')
+print('\nOptions: \n1. n^2 with steps.\n2. nlog(n) with steps.\n3. n^2 without steps.\n4. nlog(n) without steps.')
 print('Choose option: ',end='')
 opt=int(input())
 if(opt==1):
